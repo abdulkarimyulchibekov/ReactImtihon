@@ -1,0 +1,51 @@
+.book__list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.book__title {
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: center;
+  color: #C9AC8C;
+  width: 140px;
+}
+
+.book__item {
+  margin-right: 40px;
+}
+
+.book__link {
+  text-decoration: none;
+}
+
+.book__text {
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 34px;
+  color: #C9AC8C;
+}
+
+.book__sublink {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.book {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

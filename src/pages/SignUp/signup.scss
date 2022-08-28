@@ -1,0 +1,68 @@
+.signup {
+  width: 100vw;
+  height: 100vh;
+  background-color: #e5e5e5;
+  padding-top: 75px;
+  background-image: url("../../assets/Images/bgisignup.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.signup__inner {
+  width: 334px;
+  margin-left: auto;
+  margin-right: 164px;
+}
+
+.signup__title {
+  margin: 0;
+  font-family: 'Arial Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 51px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.signup__desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 21px;
+}
+
+.input {
+  background: #FFFFFF;
+  border: 1px solid #B4B4BB;
+  border-radius: 10px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 30px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.signup__btn {
+  font-family: 'roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #FFFFFF;
+  width: 288px;
+  padding: 5px 20px;
+  background: #152540;
+  border-radius: 99px;
+  border: 0;
+  width: 100%;
+}
+
+.signup__link {
+  color: #549FF9;
+  text-decoration: none;
+}

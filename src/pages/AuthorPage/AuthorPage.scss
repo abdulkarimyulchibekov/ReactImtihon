@@ -1,0 +1,59 @@
+.author-page {
+  display: flex;
+  align-items: stretch;
+}
+
+.author-page__bio {
+  width: 672px;
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 144.4%;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 50px;
+}
+
+.author-page__box {
+  border-radius: 0px 50px 50px 0px;
+  margin-right: 100px;
+}
+
+.author-page__title {
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  color: #C9AC8C;
+}
+
+.date {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}
+
+.date__desc {
+  font-family: 'Visuelt Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 144.4%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.date__main {
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 39px;
+  line-height: 144.4%;
+  color: #C9AC8C;
+  margin: 0;
+}
+
+.date__line {
+  margin-left: 50px;
+  margin-right: 50px;
+}

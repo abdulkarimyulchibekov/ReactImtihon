@@ -1,0 +1,117 @@
+.account.true {
+  background-color: #212121;
+  height: 100%;
+}
+
+.account__form {
+  display: flex;
+  padding-top: 92px;
+}
+
+.account__left {
+  margin-right: 100px;
+  width: 200px;
+}
+
+.account__image {
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+.account__label {
+  position: relative;
+  width: 100%;
+}
+
+.account__right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.account__title.true {
+  color: #B5B5C5;
+}
+
+.account__btn {
+  width: 50px;
+  height: 50px;
+  background: #F3F6F9;
+  border-radius: 8px;
+  padding: 12px 9px;
+  background-image: url("../../assets/Images/camera.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  bottom: -100px;
+  right: 0;
+}
+
+.account__title {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #212121;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.first-name__text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  color: #464E5F;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.first-name__label {
+  margin-bottom: 22px;
+
+}
+
+.last {
+  margin-bottom: 110px;
+}
+
+.first-name__input {
+  background: #F3F6F9;
+  border-radius: 4px;
+  border: none;
+  width: 100%;
+  padding: 12px;
+  padding-left: 20px;
+  margin-bottom: 3px;
+}
+
+.first-name__desc {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #B5B5C5;
+  opacity: 0.8;
+  display: inline-block;
+}
+
+.account-btn {
+  width: 142px;
+  display: inline-block;
+  margin-left: auto;
+  background: #152540;
+  border-radius: 4px;
+  border: none;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 20px;
+  color: #FFFFFF;
+  padding: 12px 20px; 
+}

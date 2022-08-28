@@ -1,0 +1,56 @@
+.links {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.links__title {
+  font-family: 'Rotterburg Stylish FREE';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 34px;
+  color: #C9AC8C;
+}
+
+.links__title.false {
+  color: #2f2f2f;
+}
+
+.ant-carousel {
+  height: 0;
+}
+
+.links__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.links__link {
+  font-family: 'Steinbeck';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+  & + & {
+    margin-left: 70px;
+  }
+}
+
+.links__link.false {
+  color: #0a0a0a;
+}
+
+.link {
+  color: #C9AC8C;
+}
+
+.link.false {
+  color: #1900ff;
+}

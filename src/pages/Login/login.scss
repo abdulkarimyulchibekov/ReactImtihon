@@ -1,0 +1,42 @@
+.login {
+  width: 100vw;
+  padding-top: 75px;
+  height: 100vh; 
+  background-color: #e5e5e5;
+  background-image: url("../../assets/Images/signin.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.login__inner {
+  width: 334px;
+  margin-left: auto;
+  margin-right: 164px;
+}
+
+.login__title {
+  margin: 0;
+  font-family: 'Arial Black';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 51px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.login__desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 21px;
+}
+
+.login__link {
+  color: #549FF9;
+  text-decoration: none;
+}
