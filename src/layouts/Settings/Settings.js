@@ -8,7 +8,6 @@ const label = { inputProps: { 'aria-label': 'Switch demo' } };
 
 export const Settings = () => {
 	const { t } = useTranslation();
-
 	const [theme, setTheme] = useTheme();
 
 	return (
